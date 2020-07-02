@@ -31,7 +31,7 @@ weatherForm.addEventListener('submit', (e) => {
 				console.log(data.location);
 				messageOne.textContent = data.location;
 				messageTwo.textContent =
-					"It's currently " + data.description + ' in ' + data.location;
+					"It's currently " + data.description + ' in ' + data.city;
 				messageThree.textContent =
 					'Temperature outside is ' + data.temp + '°celcius';
 				messageFour.textContent = 'Humidity outside is ' + data.humidity + '%';
